@@ -1,0 +1,14 @@
+;
+; Zone file for dominio.com.br
+;
+$TTL 86400
+@	IN	SOA	caribe.rtfmfilial.com.br. administrador.rtfmfilial.com.br. (
+			20120424	; serial
+			1d		; refresh
+			1h		; retry
+			1w		; expire
+			
+
+caribe IN 	A	192.168.0.1
+www    IN		CNAME	caribe
+DNS    IN		CNAME	caribe
