@@ -1,0 +1,5 @@
+zone "rtfmmatriz.com.br" {
+	type slave;
+	masters { 192.168.2.2; };
+	
+};
