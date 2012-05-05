@@ -1,0 +1,5 @@
+zone "rtfmfilial.com.br" {
+	type master;
+	file "etc/bind/rtfmfilial.com.br";
+	
+};
