@@ -1,0 +1,6 @@
+options {
+	
+	allow-query { any; };
+	allow-query-cache { any; };
+	allow-recursion	{ any; };
+};
