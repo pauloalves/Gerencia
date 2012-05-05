@@ -1,0 +1,15 @@
+;
+; Zone file for dominio.com.br
+;
+$TTL 86400
+@	IN	SOA	borabora.rtfmmatriz.com.br. administrador.rtfmmatriz.com.br. (
+			20120424	; serial
+			1d		; refresh
+			1h		; retry
+			1w		; expire
+			
+borabora IN 	A	192.168.2.2
+@       IN      NS      sumatra.rtfmmatriz.com.br
+sumatra       IN      A       192.168.2.3
+www    IN		CNAME	borabora
+DNS    IN		CNAME	borabora
